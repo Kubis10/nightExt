@@ -1,15 +1,15 @@
 {
-    "name": "My YT Bookmarks",
+    "name": "Night EYE",
     "version": "0.1.0",
-    "description": "Saving timestamps in YT videos",
+    "description": "Changing theme and colors",
     "permissions": ["storage", "tabs"],
-    "host_permissions": ["https://*.youtube.com/*"],
+    "host_permissions": ["*"],
     "background": {
       "service_worker": "background.js"
     },
     "content_scripts": [
       {
-        "matches": ["https://*.youtube.com/*"],
+        "matches": ["*"],
         "js": ["contentScript.js"]
       }
     ],
@@ -21,7 +21,7 @@
           "assets/delete.png",
           "assets/save.png"
         ],
-        "matches": ["https://*.youtube.com/*"]
+        "matches": ["*"]
       }
     ],
     "action": {
@@ -30,7 +30,7 @@
         "24": "assets/ext-icon.png",
         "32": "assets/ext-icon.png"
       },
-      "default_title": "My YT Bookmarks",
+      "default_title": "Night Eye",
       "default_popup": "popup.html"
     },
     "manifest_version": 3
