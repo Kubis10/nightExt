@@ -1,5 +1,5 @@
 {
-    "name": "Darklit",
+    "name": "NightEXT",
     "version": "1.0.0",
     "manifest_version": 2,
     "description": " Meet NightEXT, a dark theme for Google Chrome. It's free and open source. ",
@@ -13,7 +13,7 @@
         "128":"resources/logo.png"
     },
     "browser_action": {
-        "default_title": "Darklit",
+        "default_title": "NightEXT",
         "default_popup": "popup.html"
     },
     "permissions": [
