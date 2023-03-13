@@ -1,37 +1,24 @@
 {
-    "name": "Night EYE",
-    "version": "0.1.0",
-    "description": "Changing theme and colors",
-    "permissions": ["storage", "tabs"],
-    "host_permissions": ["*"],
+    "name": "Darklit",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": " Meet NightEXT, a dark theme for Google Chrome. It's free and open source. ",
     "background": {
-      "service_worker": "background.js"
-    },
-    "content_scripts": [
-      {
-        "matches": ["*"],
-        "js": ["contentScript.js"]
-      }
-    ],
-    "web_accessible_resources": [
-      {
-        "resources": [
-          "assets/bookmark.png",
-          "assets/play.png",
-          "assets/delete.png",
-          "assets/save.png"
+        "scripts": [
+            "js/popup.js"
         ],
-        "matches": ["*"]
-      }
-    ],
-    "action": {
-      "default_icon": {
-        "16": "assets/ext-icon.png",
-        "24": "assets/ext-icon.png",
-        "32": "assets/ext-icon.png"
-      },
-      "default_title": "Night Eye",
-      "default_popup": "popup.html"
+        "persisten": true
     },
-    "manifest_version": 3
+    "icons":{
+        "128":"resources/logo.png"
+    },
+    "browser_action": {
+        "default_title": "Darklit",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
 }
