@@ -22,6 +22,7 @@ p, .button{
     font-weight: 300;
 }
 .button{
+    margin: auto;
     background-color:#CBCBD4;
     position:relative;
     display: flex;
