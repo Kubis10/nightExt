@@ -9,6 +9,12 @@ h1{
     font-size: 40px;
     font-weight: bold;
 }
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
 .offwhite{
     color: #f7ede2;
 }
@@ -56,6 +62,23 @@ p, .button{
     border-radius: 50%;
     background-color:#8AA8A1;
     pointer-events: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    background-color: #EE7B30;
+    margin: 10px 0;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 @keyframes moveCircleRight {
     from{
