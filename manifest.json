@@ -5,7 +5,8 @@
     "description": " Meet NightEXT, a dark theme for Google Chrome. It's free and open source. ",
     "background": {
         "scripts": [
-            "js/popup.js"
+            "js/popup.js",
+            "js/settings.js"
         ],
         "persisten": true
     },
