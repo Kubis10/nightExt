@@ -2,7 +2,7 @@ body{
     min-width: 300px;
     text-align: center;
     background-color: #333333;
-    border-radius: 50%
+    border-radius: 50%;
 }
 h1{
     font-family: 'Rubik', sans-serif;
@@ -26,6 +26,11 @@ p, .button{
     font-size: 1.3rem;
     color: #f7ede2;
     font-weight: 300;
+}
+#jezyk{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 }
 .button{
     margin: auto;
